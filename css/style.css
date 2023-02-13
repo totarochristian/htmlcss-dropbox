@@ -39,6 +39,7 @@
     /* Size variables */
     --fs-body: 1rem;
     --fs-btn: 0.9rem;
+    --fs-h1: 3.5rem;
     --min-height-header-navbar: 50px;
 
     /* Transition variables */
@@ -132,7 +133,7 @@ main{
 /**************************** General ****************************/
 /*****************************************************************/
 main{
-    padding-top: 96px;
+    padding-top: 68px;
 }
 main #hero, main #free-trial{
     background-color: var(--bg-hero-free-trial);
@@ -169,7 +170,8 @@ header nav ul li a:hover{
 /****************************** Hero *****************************/
 /*****************************************************************/
 main #hero{
-    
+    padding: 5rem 1rem 1rem 1rem;
+    font-size: var(--fs-h1);
 }
 
 /*****************************************************************/
