@@ -156,6 +156,9 @@ header nav ul{
     list-style: none;
     min-height: var(--min-height-header-navbar);
 }
+header nav ul img{
+    min-height: 35px;
+}
 header nav ul li a{
     padding: 15px 12px;
     text-decoration: none;
@@ -179,16 +182,13 @@ main #hero h1{
 }
 main #hero .text{
     width: calc(100% / 3 - 1rem);
-    position: relative;
 }
 main #hero .text p{
     padding: 2rem 0 2rem 0;
 }
 main #hero .text i{
-    position: absolute;
-    bottom: 0;
-    left: 0;
     font-size: 3rem;
+    padding-top: 2rem;
 }
 main #hero .image{
     width: calc((100% / 3) * 2);
