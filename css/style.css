@@ -46,3 +46,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.main-container{
+    max-width: 1200px;
+}
+.small-container{
+    max-width: 1000px;
+}
