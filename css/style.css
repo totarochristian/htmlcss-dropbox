@@ -218,11 +218,19 @@ footer{
 footer nav ul li a{
     color: var(--txt-footer);
 }
+footer #languages{
+
+}
+footer #languages .container{
+    width: 120px;
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--txt-footer);
+}
 footer #languages select{
     font-size: var(--fs-body);
     background-color: var(--bg-footer);
     color: var(--txt-footer);
-    text-align: right;
+    text-align: center;
     width: 80px;
     --webkit-border-radius: 0;
     border: 0;
