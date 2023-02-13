@@ -66,6 +66,9 @@ main{
 .small-container{
     max-width: 1000px;
 }
+.padding-1rem{
+    padding: 1rem;
+}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -77,8 +80,11 @@ main{
     justify-content: space-between;
 
 }
-.d-flex ul .d-f-align-item-center{
+.d-flex ul .d-f-align-items-center{
     align-items: center;
+}
+.gap-1rem{
+    gap: 1rem;
 }
 
 /*****************************************************************/
