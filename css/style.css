@@ -112,6 +112,10 @@ header{
 header nav ul{
     list-style: none;
 }
+header nav ul li a{
+    text-decoration: none;
+    color: var(--txt-body);
+}
 
 /*****************************************************************/
 /****************************** Hero *****************************/
