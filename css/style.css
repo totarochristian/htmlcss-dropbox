@@ -39,6 +39,7 @@
     /* Size variables */
     --fs-body: 1rem;
     --fs-btn: 0.9rem;
+    --min-height-header-navbar: 50px;
 }
 
 /***************************************************************/
@@ -139,15 +140,16 @@ main #hero, main #free-trial{
 header{
     background-color: var(--bg-header);
     width: 100%;
-    min-height: 50px;
+    min-height: var(--min-height-header-navbar);
     position: fixed;
     top: 0;
     z-index: 1000;
     border-bottom: 2px solid var(--bdr-header);
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 header nav ul{
     list-style: none;
+    min-height: var(--min-height-header-navbar);
 }
 header nav ul li a{
     padding: 15px 12px;
