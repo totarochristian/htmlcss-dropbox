@@ -24,18 +24,19 @@
     --txt-footer-languages: #9b9a9b;
     --txt-special: #61082b;
     --txt-btn-default: #000000;
-    --txt-btb-special: #ffffff;
+    --txt-btn-special: #ffffff;
 
     /* Border variables */
     --bdr-header: #d1d9e1;
     --bdr-btn-default: #000000;
+    --bdr-btn-special: transparent;
 
     /* Hover variables */
     --bg-hover-header: #f2eee8;
     
     /* Size variables */
-
-
+    --fs-body: 1rem;
+    --fs-btn: 0.9rem;
 }
 
 /***************************************************************/
@@ -55,6 +56,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: var(--fs-body);
     color: var(--txt-body);
 }
 main{
@@ -85,6 +87,24 @@ main{
 }
 .gap-1rem{
     gap: 1rem;
+}
+
+/*****************************************************************/
+/**************************** Buttons ****************************/
+/*****************************************************************/
+.btn-default{
+    background-color: var(--bg-btn-default);
+    color: var(--txt-btn-default);
+    border: 1px solid var(--bdr-btn-default);
+    font-size: var(--fs-btn);
+    padding: 7px 12px;
+}
+.btn-special{
+    background-color: var(--bg-btn-special);
+    color: var(--txt-btn-special);
+    border: 1px solid var(--bdr-btn-special);
+    font-size: var(--fs-btn);
+    padding: 7px 12px;
 }
 
 /*****************************************************************/
