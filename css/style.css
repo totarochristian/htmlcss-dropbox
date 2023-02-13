@@ -17,7 +17,7 @@
     --bg-logo-clearChannelOutdoor: #ffd830;
     --bg-btn-default: #ffffff;
     --bg-btn-special: #0061ff;
-    
+
     /* Text colors variables */
     --txt-body: #000000;
     --txt-footer: #ffffff;
@@ -25,6 +25,10 @@
     --txt-special: #61082b;
     --txt-btn-default: #000000;
     --txt-btb-special: #ffffff;
+
+    /* Border variables */
+    --bdr-header: #d1d9e1;
+    --bdr-btn-default: #000000;
     
     /* Size variables */
 
