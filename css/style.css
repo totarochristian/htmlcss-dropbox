@@ -3,13 +3,32 @@
 /******************************************************************************/
 :root{
     /* Background variables */
-
+    --bg-body: #ffffff;
+    --bg-header: #ffffff;
+    --bg-hero: #b4d0e7;
+    --bg-footer: #000000;
+    --bg-logo-designIt: #a2d39b;
+    --bg-logo-asu: #61082b;
+    --bg-logo-ufFlorida: #0093ce;
+    --bg-logo-topps: #ff1c1c;
+    --bg-logo-worldBicycleRelief: #d5001f;
+    --bg-logo-hearst: #b4d0e7;
+    --bg-logo-lonelyPlanet: #0d2481;
+    --bg-logo-clearChannelOutdoor: #ffd830;
+    --bg-btn-default: #ffffff;
+    --bg-btn-special: #0061ff;
+    
     /* Text colors variables */
-
+    --txt-body: #000000;
+    --txt-footer: #ffffff;
+    --txt-footer-languages: #9b9a9b;
+    --txt-special: #61082b;
+    --txt-btn-default: #000000;
+    --txt-btb-special: #ffffff;
+    
     /* Size variables */
 
-    /* Utility variables */
-    
+
 }
 
 /***************************************************************/
