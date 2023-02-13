@@ -40,6 +40,7 @@
     --fs-body: 1rem;
     --fs-btn: 1.1rem;
     --fs-h1: 5rem;
+    --fs-h2: 1.8rem;
     --min-height-header-navbar: 50px;
 
     /* Transition variables */
@@ -77,9 +78,11 @@ main{
 }
 .main-container{
     max-width: 1200px;
+    padding: 1rem;
 }
 .small-container{
     max-width: 1000px;
+    padding: 1rem;
 }
 
 /*****************************************************************/
@@ -182,7 +185,7 @@ header nav ul li a:hover{
 /*****************************************************************/
 main #hero{
     width: 100%;
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 5rem 0 1rem 0;
     margin-bottom: 6rem;
 }
 main #hero h1{
@@ -211,8 +214,16 @@ main #hero .image img{
 /*****************************************************************/
 /******************************* FAQ *****************************/
 /*****************************************************************/
+main #faq{
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+}
 main #faq summary{
     font-weight: 700;
+}
+main h2{
+    font-size: var(--fs-h2);
+    padding-bottom: 2.2rem;
 }
 
 /*****************************************************************/
