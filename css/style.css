@@ -81,6 +81,9 @@ main{
 /****************************** Main *****************************/
 /**************************** General ****************************/
 /*****************************************************************/
+main{
+    padding-top: 100px;
+}
 main #hero, main #free-trial{
     background-color: var(--bg-hero-free-trial);
 }
@@ -90,6 +93,9 @@ main #hero, main #free-trial{
 /*****************************************************************/
 header{
     background-color: var(--bg-header);
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 header nav ul{
     list-style: none;
