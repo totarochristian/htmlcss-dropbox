@@ -29,6 +29,9 @@
     /* Border variables */
     --bdr-header: #d1d9e1;
     --bdr-btn-default: #000000;
+
+    /* Hover variables */
+    --bg-hover-header: #f2eee8;
     
     /* Size variables */
 
@@ -115,6 +118,9 @@ header nav ul{
 header nav ul li a{
     text-decoration: none;
     color: var(--txt-body);
+}
+header nav ul li a:hover{
+
 }
 
 /*****************************************************************/
