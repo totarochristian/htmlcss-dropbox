@@ -62,9 +62,6 @@ main{
 .small-container{
     max-width: 1000px;
 }
-header nav ul{
-    list-style: none;
-}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -72,8 +69,11 @@ header nav ul{
 .d-flex{
     display: flex;
     flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+
 }
-.d-f-align-item-center{
+.d-flex ul .d-f-align-item-center{
     align-items: center;
 }
 
@@ -90,6 +90,9 @@ main #hero, main #free-trial{
 /*****************************************************************/
 header{
     background-color: var(--bg-header);
+}
+header nav ul{
+    list-style: none;
 }
 
 /*****************************************************************/
