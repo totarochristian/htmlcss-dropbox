@@ -216,10 +216,20 @@ footer{
     color: var(--txt-footer);
 }
 footer nav ul li a{
-    color: var(--txt-footer);
+    color: var(--txt-footer);font-size: calc(var(--fs-body) - 0.2rem);
+
+}
+footer .links{
+    padding: 5rem 0 4rem 0;
+}
+footer .links li{
+    padding: 0.3rem 0 0.3rem 0;
+}
+footer .links li h3{
+    padding-bottom: 0.5rem;
 }
 footer #languages{
-
+    padding: 1rem 0 0 0;
 }
 footer #languages .container{
     width: 120px;
