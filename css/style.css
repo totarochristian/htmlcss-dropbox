@@ -95,19 +95,23 @@ main{
 /*****************************************************************/
 /**************************** Buttons ****************************/
 /*****************************************************************/
+.btn{
+    font-size: var(--fs-btn);
+    padding: 7px 12px;
+}
+.btn:hover{
+    cursor: pointer;
+}
 .btn-default{
     background-color: var(--bg-btn-default);
     color: var(--txt-btn-default);
     border: 1px solid var(--bdr-btn-default);
-    font-size: var(--fs-btn);
-    padding: 7px 12px;
+    
 }
 .btn-special{
     background-color: var(--bg-btn-special);
     color: var(--txt-btn-special);
     border: 1px solid var(--bdr-btn-special);
-    font-size: var(--fs-btn);
-    padding: 7px 12px;
 }
 
 /*****************************************************************/
