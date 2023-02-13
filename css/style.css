@@ -40,6 +40,9 @@
     --fs-body: 1rem;
     --fs-btn: 0.9rem;
     --min-height-header-navbar: 50px;
+
+    /* Transition variables */
+    --tr-bg-color: 1s;
 }
 
 /***************************************************************/
@@ -101,6 +104,7 @@ main{
 .btn{
     font-size: var(--fs-btn);
     padding: 7px 12px;
+    transition: background-color var(--tr-bg-color);
 }
 .btn:hover{
     cursor: pointer;
@@ -155,7 +159,7 @@ header nav ul li a{
     padding: 15px 12px;
     text-decoration: none;
     color: var(--txt-body);
-    transition: background-color 1s;
+    transition: background-color var(--tr-bg-color);
 }
 header nav ul li a:hover{
     background-color: var(--bg-hover-header);
