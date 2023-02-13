@@ -34,7 +34,7 @@
     /* Hover variables */
     --bg-hover-header: #f2eee8;
     --bg-hover-btn-default: #f2eee8;
-    --bg-hover-btn-special: #297afe;
+    --bg-hover-btn-special: #337ffa;
     
     /* Size variables */
     --fs-body: 1rem;
@@ -170,10 +170,20 @@ header nav ul li a:hover{
 /****************************** Hero *****************************/
 /*****************************************************************/
 main #hero{
+    width: 100%;
     padding: 5rem 1rem 1rem 1rem;
 }
 main #hero h1{
     font-size: var(--fs-h1);
+}
+main #hero .text{
+    width: calc(100% / 3);
+}
+main #hero .image{
+    width: calc((100% / 3) * 2 - 1rem);
+}
+main #hero .image img{
+    width: 100%;
 }
 
 /*****************************************************************/
