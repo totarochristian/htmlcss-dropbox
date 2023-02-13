@@ -171,6 +171,8 @@ header nav ul li a:hover{
 /*****************************************************************/
 main #hero{
     padding: 5rem 1rem 1rem 1rem;
+}
+main #hero h1{
     font-size: var(--fs-h1);
 }
 
