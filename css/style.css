@@ -69,9 +69,6 @@ main{
 .small-container{
     max-width: 1000px;
 }
-.padding-1rem{
-    padding: 1rem;
-}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -107,10 +104,12 @@ main #hero, main #free-trial{
 header{
     background-color: var(--bg-header);
     width: 100%;
+    min-height: 50px;
     position: fixed;
     top: 0;
     z-index: 1000;
     border-bottom: 2px solid var(--bdr-header);
+    padding: 1.5rem 1rem 1rem 1rem;
 }
 header nav ul{
     list-style: none;
@@ -118,9 +117,6 @@ header nav ul{
 header nav ul li a{
     text-decoration: none;
     color: var(--txt-body);
-}
-header nav ul li a:hover{
-
 }
 
 /*****************************************************************/
