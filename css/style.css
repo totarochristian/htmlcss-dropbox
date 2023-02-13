@@ -62,6 +62,9 @@ main{
 .small-container{
     max-width: 1000px;
 }
+header nav ul{
+    list-style: none;
+}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -70,7 +73,7 @@ main{
     display: flex;
     flex-flow: row wrap;
 }
-.d-f-align-itm-center{
+.d-f-align-item-center{
     align-items: center;
 }
 
