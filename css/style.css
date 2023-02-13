@@ -130,6 +130,15 @@ main{
 .btn-special:hover{
     background-color: var(--bg-hover-btn-special);
 }
+.btn-large{
+    background-color: var(--bg-btn-default);
+    color: var(--txt-btn-default);
+    border: 1px solid transparent;
+    padding: 8px 50px;
+}
+.btn-large:hover{
+    background-color: var(--bg-hover-btn-default);
+}
 
 /*****************************************************************/
 /***************************** List ******************************/
