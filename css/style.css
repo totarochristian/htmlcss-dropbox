@@ -316,6 +316,7 @@ main #plans .head{
     text-align: center;
 }
 #plans .plan-element .plan-try-buy .btn-special, #plans .plan-team .right .btn-special{
+    width: 100%;
     padding: 12px 12px;
     font-size: calc(var(--fs-body) - 0.09rem);
 }
