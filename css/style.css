@@ -310,9 +310,15 @@ main #plans .plan-element hr{
 main #plans .plan-element hr.little-hr{
     width: 55px;
 }
-.plan-element .target p{
+.plan-element .target{
     width: 100%;
     text-align: center;
+}
+.plan-element i{
+    margin-right: 5px;
+}
+.plan-major-details p i{
+    color: blue;
 }
 
 /*****************************************************************/
