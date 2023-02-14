@@ -160,9 +160,6 @@ nav ul li a{
 /**************************** Radio ******************************/
 /**************************** Button******************************/
 /*****************************************************************/
-.radioButtons label:first-child{
-    margin-right: 4rem;
-}
 /* Customize the label (the container) */
 .containerRadioButton {
     display: inline-block;
@@ -288,6 +285,16 @@ main #hero .image{
 main #hero .image img{
     width: 100%;
     min-width: 270px;
+}
+
+/*****************************************************************/
+/***************************** Plans *****************************/
+/*****************************************************************/
+main #plans .radioButtons label:first-child{
+    margin-right: 4rem;
+}
+main #plans .radioButtons{
+    padding: 2rem 0 2rem 0;
 }
 
 /*****************************************************************/
