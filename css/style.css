@@ -31,6 +31,7 @@
     --bdr-header: #d1d9e1;
     --bdr-btn-default: #000000;
     --bdr-btn-special: transparent;
+    --bdr-logo-designIt: #d1e9cd;
 
     /* Hover variables */
     --bg-hover-header: #f2eee8;
@@ -264,14 +265,16 @@ main #clients .container .logos .logo{
     position: relative;
 }
 main #clients .container .logos .logo img{
-    width: 70%;
+    width: 55%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(100%);
 }
 .bg-designIt{
     background-color: var(--bg-logo-designIt);
+    border: 12px solid var(--bdr-logo-designIt);
 }
 .bg-asu{
     background-color: var(--bg-logo-asu);
