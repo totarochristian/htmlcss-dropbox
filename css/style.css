@@ -106,6 +106,9 @@ main{
 .gap-1rem{
     gap: 1rem;
 }
+.gap-2rem{
+    gap: 1rem;
+}
 
 /*****************************************************************/
 /**************************** Buttons ****************************/
@@ -300,14 +303,14 @@ main #plans .plans-container{
     width: 100%;
 }
 main #plans .plan-element{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 2rem);
     border: 1px solid lightgrey;
 }
-main #plans .plan-element hr{
+main #plans .plan-element .head{
     width: 100%;
-    opacity: 40%;
+    border-bottom: 1px solid lightgrey;
 }
-main #plans .plan-element hr.little-hr{
+main #plans .plan-element hr{
     width: 55px;
 }
 .plan-element .target{
@@ -320,6 +323,9 @@ main #plans .plan-element hr.little-hr{
 }
 .plan-major-details p i{
     color: blue;
+}
+.plan-element .content{
+    padding: 2rem 1.5rem;
 }
 
 /*****************************************************************/
