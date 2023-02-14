@@ -45,7 +45,7 @@
     --fs-h1: 5rem;
     --fs-h2: 2.4rem;
     --fs-h3: 1.4rem;
-    --min-height-header-navbar: 50px;
+    --min-height-header-navbar: 60px;
 
     /* Transition variables */
     --tr-bg-color: 0.2s;
@@ -286,7 +286,7 @@ header nav ul li{
 }
 header nav ul li a{
     line-height: var(--min-height-header-navbar);
-    padding: 14px 12px;
+    padding: 19px 12px;
     color: var(--txt-body);
     border-bottom: 2px solid transparent;
     transition: all var(--tr-bg-color) linear;
