@@ -398,6 +398,12 @@ main #plans .plan-element hr{
 .plan-team .left p, .plan-team .left h4{
     font-size: calc(var(--fs-body) - 0.09rem);
 }
+.plan-team .left h3{
+    margin-bottom: 1rem;
+}
+.plan-team .left h4{
+    margin-bottom: 3rem;
+}
 
 /*****************************************************************/
 /*************************** Free-trial **************************/
