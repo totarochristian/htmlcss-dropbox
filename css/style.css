@@ -160,21 +160,20 @@ nav ul li a{
 /**************************** Radio ******************************/
 /**************************** Button******************************/
 /*****************************************************************/
-
+.radioButtons label:first-child{
+    margin-right: 4rem;
+}
 /* Customize the label (the container) */
 .containerRadioButton {
-    display: block;
+    display: inline-block;
     position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+    padding-left: 30px;
     cursor: pointer;
-    font-size: 22px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
   }
-  
   /* Hide the browser's default radio button */
   .containerRadioButton input {
     position: absolute;
@@ -183,7 +182,6 @@ nav ul li a{
     height: 0;
     width: 0;
   }
-  
   /* Create a custom radio button */
   .checkmark {
     position: absolute;
@@ -194,29 +192,24 @@ nav ul li a{
     background-color: #eee;
     border-radius: 50%;
   }
-  
   /* On mouse-over, add a grey background color */
   .containerRadioButton:hover input ~ .checkmark {
     background-color: #ccc;
   }
-  
   /* When the radio button is checked, add a blue background */
   .containerRadioButton input:checked ~ .checkmark {
     background-color: #2196F3;
   }
-  
   /* Create the indicator (the dot/circle - hidden when not checked) */
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
   /* Show the indicator (dot/circle) when checked */
   .containerRadioButton input:checked ~ .checkmark:after {
     display: block;
   }
-  
   /* Style the indicator (dot/circle) */
   .containerRadioButton .checkmark:after {
     top: 9px;
