@@ -357,6 +357,16 @@ main #plans .plan-element hr{
 .plan-element .plan-try-buy a:visited{
     color: blue;
 }
+.plan-element .plan-major-details{
+    margin-top: 2.5rem;
+}
+.plan-element .plan-major-details h4{
+    margin-bottom: 1.7rem;
+    margin-left: 5px;
+}
+.plan-element .plan-major-details p{
+    margin-bottom: 1.3rem;
+}
 
 /*****************************************************************/
 /*************************** Free-trial **************************/
