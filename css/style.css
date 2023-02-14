@@ -7,6 +7,7 @@
     --bg-header: #ffffff;
     --bg-hero-free-trial: #b4d0e7;
     --bg-footer: #000000;
+    --bg-clients: #f5f5f5;
     --bg-logo-designIt: #a2d39b;
     --bg-logo-asu: #61082b;
     --bg-logo-ufFlorida: #0093ce;
@@ -237,6 +238,26 @@ main #free-trial h2{
 }
 main #free-trial button{
     max-height: 40px;
+}
+
+/*****************************************************************/
+/***************************** Clients ***************************/
+/*****************************************************************/
+main #clients{
+    background-color: var(--bg-clients);
+    height: calc(100vw / 3);
+}
+main #clients .total-width-container{
+    width: 100%;
+    height: 100%;
+}
+main #clients .container{
+    width: 100vw;
+    max-width: 100%;
+    height: 100%;
+}
+main #clients .container .logos, main #clients .container .text{
+    width: calc(100% / 3);
 }
 
 /*****************************************************************/
