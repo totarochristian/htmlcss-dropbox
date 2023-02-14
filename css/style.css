@@ -381,6 +381,9 @@ main #plans .plan-element hr{
     margin-top: 3rem;
     border: 1px solid lightgrey;
 }
+.plan-team .content{
+    padding: 2rem;
+}
 
 /*****************************************************************/
 /*************************** Free-trial **************************/
