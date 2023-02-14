@@ -315,6 +315,10 @@ main #plans .head{
     width: 100%;
     text-align: center;
 }
+#plans .plan-element .plan-try-buy .btn-special, #plans .plan-team .right .btn-special{
+    padding: 12px 12px;
+    font-size: calc(var(--fs-body) - 0.09rem);
+}
 
 /*****************************************************************/
 /****************************** Plan *****************************/
@@ -383,6 +387,16 @@ main #plans .plan-element hr{
 }
 .plan-team .content{
     padding: 2rem;
+}
+.plan-team .left{
+    width: 70%;
+}
+.plan-team .right{
+    width: 25%;
+    text-align: right;
+}
+.plan-team .left p, .plan-team .left h4{
+    font-size: calc(var(--fs-body) - 0.09rem);
 }
 
 /*****************************************************************/
