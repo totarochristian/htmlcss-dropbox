@@ -312,6 +312,7 @@ main #plans .plan-element .head{
 }
 main #plans .plan-element hr{
     width: 55px;
+    opacity: 50%;
 }
 .plan-element .target{
     padding: 0.6rem 0 0.6rem 0;
