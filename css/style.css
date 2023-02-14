@@ -449,6 +449,7 @@ main #features{
 }
 main #features .containerFeatures{
     width: 100%;
+    margin: 2rem 0;
 }
 main #features .containerFeatures .feature{
     width: calc(100% / 3 - 2rem);
