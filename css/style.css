@@ -296,6 +296,13 @@ main #plans .radioButtons label:first-child{
 main #plans .radioButtons{
     padding: 2rem 0 2rem 0;
 }
+main #plans .plans-container{
+    width: 100%;
+}
+main #plans .plan-element{
+    width: calc(100% / 3);
+    border: 1px solid lightgrey;
+}
 
 /*****************************************************************/
 /*************************** Free-trial **************************/
