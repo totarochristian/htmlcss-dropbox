@@ -313,7 +313,7 @@ main #plans .plan-element .head{
     border-bottom: 1px solid lightgrey;
 }
 main #plans .plan-element hr{
-    width: 55px;
+    width: 50px;
     opacity: 50%;
 }
 .plan-element .target{
@@ -346,6 +346,9 @@ main #plans .plan-element hr{
 }
 .plan-element .plan-details p{
     margin: 1.5rem 0;
+}
+.plan-element .plan-try-buy{
+    margin: 1.8rem 0;
 }
 .plan-element .plan-try-buy button{
     width: 100%;
