@@ -375,7 +375,7 @@ main #plans .plan-element hr{
     width: 100%;
     margin: 1.8rem 0;
 }
-.plan-element .plan-try-buy a:visited{
+.plan-element .plan-try-buy a:visited, #features a:visited{
     color: blue;
 }
 .plan-element .plan-major-details{
@@ -457,7 +457,14 @@ main #features .containerFeatures .feature{
 .containerFeatures .feature img{
     width: 100%;
 }
-
+main #features .generalContent{
+    width: 100%;
+    margin: 9rem 0 2rem 0;
+}
+main #features .generalContent h2{
+    width: 100%;
+    max-width: 600px;
+}
 
 /*****************************************************************/
 /***************************** Clients ***************************/
