@@ -425,6 +425,13 @@ main #partners .right{
 main #partners .left img{
     width: 100%;
 }
+main #partners h3{
+    padding-bottom: 6px;
+}
+main #partners p{
+    padding-bottom: 1.7rem;
+    max-width: 278px;
+}
 
 /*****************************************************************/
 /*************************** Free-trial **************************/
