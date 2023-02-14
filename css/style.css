@@ -43,8 +43,8 @@
     --fs-header: 1rem;
     --fs-btn: 0.91rem;
     --fs-h1: 5rem;
-    --fs-h2: 1.8rem;
-    --fs-h3: 1.5rem;
+    --fs-h2: 2.4rem;
+    --fs-h3: 1.4rem;
     --min-height-header-navbar: 50px;
 
     /* Transition variables */
@@ -90,6 +90,14 @@ main{
 }
 .total-width-container{
     width: 100%;
+}
+main h2{
+    font-size: var(--fs-h2);
+    padding-bottom: 2.2rem;
+}
+main h3{
+    font-size: var(--fs-h3);
+    padding-bottom: 1rem;
 }
 
 /*****************************************************************/
@@ -350,10 +358,6 @@ main #plans .plan-element hr{
 .plan-element .plan-general{
     padding-bottom: 1.5rem;
 }
-.plan-element .plan-general h3{
-    font-size: var(--fs-h3);
-    padding-bottom: 1rem;
-}
 .plan-element .plan-general .price{
     font-weight: 700;
     padding-bottom: 0.4rem;
@@ -557,10 +561,6 @@ main #faq summary{
 }
 main #faq details{
     padding: 1.5rem 0 1.5rem 0;
-}
-main h2{
-    font-size: var(--fs-h2);
-    padding-bottom: 2.2rem;
 }
 
 /*****************************************************************/
