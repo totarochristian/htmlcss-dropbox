@@ -87,7 +87,6 @@ main{
 }
 .total-width-container{
     width: 100%;
-    padding: 1rem;
 }
 
 /*****************************************************************/
@@ -258,6 +257,42 @@ main #clients .container{
 }
 main #clients .container .logos, main #clients .container .text{
     width: calc(100% / 3);
+}
+main #clients .container .logos .logo{
+    width: 50%;
+    height: calc((100vw / 3) / 2);
+    position: relative;
+}
+main #clients .container .logos .logo img{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-designIt{
+    background-color: var(--bg-logo-designIt);
+}
+.bg-asu{
+    background-color: var(--bg-logo-asu);
+}
+.bg-ufFlorida{
+    background-color: var(--bg-logo-ufFlorida)
+}
+.bg-topps{
+    background-color: var(--bg-logo-topps);
+}
+.bg-worldBicycleRelief{
+    background-color: var(--bg-logo-worldBicycleRelief);
+}
+.bg-hearst{
+    background-color: var(--bg-logo-hearst);
+}
+.bg-lonelyPlanet{
+    background-color: var(--bg-logo-lonelyPlanet);
+}
+.bg-clearChannel{
+    background-color: var(--bg-logo-clearChannelOutdoor);
 }
 
 /*****************************************************************/
