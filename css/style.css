@@ -305,6 +305,7 @@ main #clients .container .text{
 }
 main #clients .container .text img{
     width: 55%;
+    min-width: 8rem;
     margin-bottom: 3.5rem;
 }
 main #clients .container .text hr{
