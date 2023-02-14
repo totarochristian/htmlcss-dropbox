@@ -550,7 +550,7 @@ main #free-trial{
     padding-bottom: 3rem;
 }
 main #free-trial h2{
-    max-width: 400px;
+    max-width: 550px;
     color: var(--txt-special);
 }
 main #free-trial button{
