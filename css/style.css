@@ -347,6 +347,9 @@ main #plans .plan-element hr{
 .plan-element .plan-details p{
     margin: 1.5rem 0;
 }
+.plan-element .plan-try-buy button{
+    width: 100%;
+}
 
 /*****************************************************************/
 /*************************** Free-trial **************************/
