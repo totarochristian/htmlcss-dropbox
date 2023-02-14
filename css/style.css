@@ -278,17 +278,21 @@ main #hero h1{
     font-size: var(--fs-h1);
 }
 main #hero .text{
-    width: calc(100% / 3 - 1rem);
+    width: calc(30% - 1rem);
 }
 main #hero .text p{
+    max-width: 350px;
     padding: 2rem 0 2rem 0;
+}
+main #hero .content{
+    padding-top: 1.5rem;
 }
 main #hero .text i{
     font-size: 3rem;
     padding-top: 2rem;
 }
 main #hero .image{
-    width: calc((100% / 3) * 2);
+    width: 70%;
     padding-top: 2rem;
     margin-bottom: -6rem;
 }
