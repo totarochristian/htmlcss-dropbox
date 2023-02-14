@@ -43,6 +43,7 @@
     --fs-btn: 1.1rem;
     --fs-h1: 5rem;
     --fs-h2: 1.8rem;
+    --fs-h3: 1.5rem;
     --min-height-header-navbar: 50px;
 
     /* Transition variables */
@@ -327,6 +328,20 @@ main #plans .plan-element hr{
 }
 .plan-element .content{
     padding: 2rem 1.5rem;
+}
+.plan-element .plan-general{
+    padding-bottom: 3rem;
+}
+.plan-element .plan-general h3{
+    font-size: var(--fs-h3);
+    padding-bottom: 1rem;
+}
+.plan-element .plan-general .price{
+    font-weight: 700;
+    padding-bottom: 0.4rem;
+}
+.plan-element .plan-general .tag{
+    opacity: 60%;
 }
 
 /*****************************************************************/
