@@ -164,7 +164,7 @@ main h3{
 nav ul{
     list-style: none;
 }
-nav ul li a{
+nav ul li a, #hero a{
     text-decoration: none;
 }
 
@@ -295,9 +295,10 @@ main #hero .text p{
 main #hero .content{
     padding-top: 1.5rem;
 }
-main #hero .text i{
+main #hero .text a{
     font-size: 3rem;
     padding-top: 2rem;
+    color: var(--txt-body);
 }
 main #hero .image{
     width: 70%;
