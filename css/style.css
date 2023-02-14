@@ -306,7 +306,7 @@ main #plans .plans-container{
 main #plans .plan-element{
     width: calc(100% / 3 - 2rem);
     border: 1px solid lightgrey;
-    font-size: calc(var(--fs-body) - 0.15rem);
+    font-size: calc(var(--fs-body) - 0.09rem);
 }
 main #plans .plan-element .head{
     width: 100%;
