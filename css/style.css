@@ -117,7 +117,7 @@ main{
 /*****************************************************************/
 .btn{
     font-size: var(--fs-btn);
-    padding: 7px 12px;
+    padding: 12px 12px;
     transition: background-color var(--tr-bg-color);
 }
 .btn:hover{
@@ -263,6 +263,7 @@ header nav ul li a:hover{
 }
 header .btn{
     font-size: var(--fs-header);
+    padding: 7px 12px;
 }
 
 /*****************************************************************/
@@ -322,7 +323,6 @@ main #plans .head{
 }
 #plans .plan-element .plan-try-buy .btn-special, #plans .plan-team .right .btn-special{
     width: 100%;
-    padding: 12px 12px;
 }
 
 /*****************************************************************/
