@@ -303,6 +303,17 @@ main #plans .plan-element{
     width: calc(100% / 3);
     border: 1px solid lightgrey;
 }
+main #plans .plan-element hr{
+    width: 100%;
+    opacity: 40%;
+}
+main #plans .plan-element hr.little-hr{
+    width: 55px;
+}
+.plan-element .target p{
+    width: 100%;
+    text-align: center;
+}
 
 /*****************************************************************/
 /*************************** Free-trial **************************/
