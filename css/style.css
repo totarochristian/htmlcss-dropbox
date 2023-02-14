@@ -297,6 +297,10 @@ main #clients .container .logos .logo img{
 .bg-clearChannel{
     background-color: var(--bg-logo-clearChannelOutdoor);
 }
+main #clients .container .text{
+    overflow-y: auto;
+    padding: 4rem;
+}
 
 /*****************************************************************/
 /******************************* FAQ *****************************/
