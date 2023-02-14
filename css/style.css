@@ -349,6 +349,10 @@ main #plans .plan-element hr{
 }
 .plan-element .plan-try-buy button{
     width: 100%;
+    margin: 1.8rem 0;
+}
+.plan-element .plan-try-buy a:visited{
+    color: blue;
 }
 
 /*****************************************************************/
