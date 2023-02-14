@@ -447,7 +447,7 @@ main #features .containerFeatures{
     width: 100%;
 }
 main #features .containerFeatures .feature{
-    width: calc(100% / 3 - 1rem);
+    width: calc(100% / 3 - 2rem);
 }
 .containerFeatures .feature img{
     width: 100%;
