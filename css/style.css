@@ -255,6 +255,7 @@ nav ul li a, #hero a{
 /**************************** General ****************************/
 /*****************************************************************/
 main{
+    margin-top: var(--min-height-header-navbar);
     padding-top: calc(3.5rem - var(--min-height-header-navbar));
 }
 main #hero, main #free-trial{
