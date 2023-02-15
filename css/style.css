@@ -31,14 +31,6 @@
     --bdr-header: #d1d9e1;
     --bdr-btn-default: #000000;
     --bdr-btn-special: transparent;
-    --bdr-logo-designIt: #d1e9cd;
-    --bdr-logo-asu: #6d354b;
-    --bdr-logo-ufFlorida: #2da6d6;
-    --bdr-logo-topps: #f75d5d;
-    --bdr-logo-worldBicycleRelief: #e23750;
-    --bdr-logo-hearst: #e4e6e7;
-    --bdr-logo-lonelyPlanet: #4c5475;
-    --bdr-logo-clearChannelOutdoor: #ece3b8;
 
     /* Hover variables */
     --bg-hover-header: #f2eee8;
@@ -547,53 +539,32 @@ main #clients .container .logos .logo img{
     border: 12px solid transparent;
     transition: border var(--tr-bdr-square-color) linear;
 }
+.square-border:hover{
+    border: 12px solid rgba(255, 255, 255, 0.5);
+}
 .bg-designIt{
     background-color: var(--bg-logo-designIt);
-}
-.bg-designIt:hover{
-    border: 12px solid var(--bdr-logo-designIt);
 }
 .bg-asu{
     background-color: var(--bg-logo-asu);
 }
-.bg-asu:hover{
-    border: 12px solid var(--bdr-logo-asu);
-}
 .bg-ufFlorida{
     background-color: var(--bg-logo-ufFlorida)
-}
-.bg-ufFlorida:hover{
-    border: 12px solid var(--bdr-logo-ufFlorida);
 }
 .bg-topps{
     background-color: var(--bg-logo-topps);
 }
-.bg-topps:hover{
-    border: 12px solid var(--bdr-logo-topps);
-}
 .bg-worldBicycleRelief{
     background-color: var(--bg-logo-worldBicycleRelief);
-}
-.bg-worldBicycleRelief:hover{
-    border: 12px solid var(--bdr-logo-worldBicycleRelief);
 }
 .bg-hearst{
     background-color: var(--bg-logo-hearst);
 }
-.bg-hearst:hover{
-    border: 12px solid var(--bdr-logo-hearst);
-}
 .bg-lonelyPlanet{
     background-color: var(--bg-logo-lonelyPlanet);
 }
-.bg-lonelyPlanet:hover{
-    border: 12px solid var(--bdr-logo-lonelyPlanet);
-}
 .bg-clearChannel{
     background-color: var(--bg-logo-clearChannelOutdoor);
-}
-.bg-clearChannel:hover{
-    border: 12px solid var(--bdr-logo-clearChannelOutdoor);
 }
 main #clients .container .text{
     height: 100%;
