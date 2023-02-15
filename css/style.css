@@ -724,6 +724,7 @@ aside .chatbox .chatbox-footer{
 aside .chatbox .chatbox-footer .btn{
     height: 100%;
     width: 57px;
+    border-radius: 7px;
 }
 aside .chatbox .chatbox-footer input{
     width: calc(100% - 57px - 5px);
