@@ -682,7 +682,7 @@ footer{
 }
 footer nav ul li a{
     color: var(--txt-footer);
-    font-size: calc(var(--fs-body) - 0.15rem);
+    font-size: calc(var(--fs-body) - 0.1rem);
 }
 footer nav ul li a:hover{
     text-decoration: underline;
