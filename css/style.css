@@ -646,6 +646,10 @@ main #faq details{
 main #faq details:hover{
     background-color: var(--bg-hover-details);
 }
+main #faq summary::marker{
+    display: none;
+    content: "";
+}
 
 /*****************************************************************/
 /***************************** Footer ****************************/
