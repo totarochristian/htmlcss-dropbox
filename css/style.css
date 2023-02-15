@@ -137,6 +137,9 @@ main h3{
 .d-f-align-items-center{
     align-items: center;
 }
+.d-f-row-reverse{
+    flex-flow: row-reverse;
+}
 .gap-1rem{
     gap: 1rem;
 }
