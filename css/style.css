@@ -709,7 +709,7 @@ footer #languages select:hover{
 /**************************** Chatbox ****************************/
 /*****************************************************************/
 aside{
-    max-width: 600px;
+    max-width: 450px;
     height: 500px;
     z-index: 10;
     position: fixed;
@@ -725,34 +725,52 @@ aside .chatbox{
     background-color: var(--bg-chatbox-content);
 }
 aside .chatbox .chatbox-header{
-    height: 12%;
+    height: 55px;
     background-color: var(--bg-chatbox-header);
     border-radius: 8px 8px 0 0;
     border-bottom: 2px solid var(--bdr-chatbox);
+    margin-bottom: 0.5rem;
 }
 aside .chatbox .chatbox-header i{
     font-size: var(--fs-chatbox-header);
 }
 aside .chatbox .chatbox-content{
-    height: 76%;
+    height: calc(100% - 55px - 53px - 7px);
     overflow-y: auto;
 }
 aside .chatbox .message{
-    width: 100%;
+    max-width: 80%;
     padding: 1rem 0.5rem 1rem 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
 }
 aside .chatbox .chatbox-content .message i{
     width: 30px;
     font-size: var(--fs-chatbox-icons);
 }
 aside .chatbox .chatbox-content .message span{
-    width: calc(100% - 30px);
+    max-width: 403px;
+}
+aside .chatbox .chatbox-content .bot span{
+    text-align: left;
+    padding: 0 1rem 0 0;
 }
 aside .chatbox .chatbox-content .user span{
     text-align: right;
+    padding: 0 0 0 1rem;
+}
+aside .chatbox .chatbox-content .bot, aside .chatbox .chatbox-content .user{
+    background-color: var(--bg-chatbox-header);
+}
+aside .chatbox .chatbox-content .bot {
+    border-radius: 0 20px 20px 0;
+    float: left;
+}
+aside .chatbox .chatbox-content .user {
+    border-radius: 20px 0 0 20px;
+    float: right;
 }
 aside .chatbox .chatbox-footer{
-    height: 12%;
+    height: 53px;
     padding: 5px;
     border-top: 2px solid var(--bdr-chatbox);
 }
