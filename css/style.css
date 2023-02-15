@@ -735,6 +735,7 @@ aside .chatbox .chatbox-header i{
 }
 aside .chatbox .chatbox-content{
     height: 76%;
+    overflow-y: auto;
 }
 aside .chatbox .message{
     width: 100%;
