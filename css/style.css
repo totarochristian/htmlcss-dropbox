@@ -763,4 +763,5 @@ aside .chatbox .chatbox-footer .btn{
 aside .chatbox .chatbox-footer input{
     width: calc(100% - 57px - 5px);
     padding: 10px;
+    font-family: inherit;
 }
