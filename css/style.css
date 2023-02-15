@@ -636,19 +636,41 @@ main #faq{
     padding-top: 6rem;
     padding-bottom: 7rem;
 }
-main #faq summary{
+main #faq .summary{
     font-weight: 700;
 }
-main #faq details{
+main #faq .details{
     padding: 1.5rem 0 1.5rem 0;
     transition: background-color var(--tr-bg-color) linear;
 }
-main #faq details:hover{
+main #faq .details:hover{
     background-color: var(--bg-hover-details);
 }
-main #faq summary::marker{
+main #faq .details-content{
     display: none;
-    content: "";
+    opacity: 0;
+}
+main #faq .details:hover .details-content{
+    display: block;
+    animation: dt-content-opacity 1s linear 0.2s 1 forwards;
+}
+main #faq .summary i{
+    margin: 0 2.5rem 0 1rem;
+    float: right;
+}
+main #faq .details:hover i{
+    animation: rotate-angle 0.5s linear 1 forwards;
+}
+@keyframes rotate-angle{
+    100%{
+        transform-origin: 50% 50%;
+        transform: rotate(-180deg);
+    }
+}
+@keyframes dt-content-opacity{
+    100%{
+        opacity: 1;
+    }
 }
 
 /*****************************************************************/
