@@ -199,6 +199,40 @@ nav ul li a, #hero a{
 }
 
 /*****************************************************************/
+/************************ Dropdown menù **************************/
+/*****************************************************************/
+ul li{
+    position: relative;
+}
+ul li ul.dropdown-menu{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: calc(var(--min-height-header-navbar) + 0.2rem);
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    background-color: var(--bg-hover-details);
+    z-index: 1010;
+    transition: all 0.5s ease;
+}
+ul li:hover > ul.dropdown-menu, ul li ul.dropdown-menu:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+ul li ul.dropdown-menu li {
+    width: 100%;
+    min-height: 20px;
+}
+ul li ul.dropdown-menu li a{
+    width: 100%;
+    line-height: 25px;
+    display: inline-block;
+}
+
+/*****************************************************************/
 /**************************** Custom *****************************/
 /**************************** Radio ******************************/
 /**************************** Button******************************/
