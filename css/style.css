@@ -18,6 +18,8 @@
     --bg-logo-clearChannelOutdoor: #ffd830;
     --bg-btn-default: #ffffff;
     --bg-btn-special: #0061ff;
+    --bg-chatbox-header: #f2eee8;
+    --bg-chatbox-content: #ffffff;
 
     /* Text colors variables */
     --txt-body: #000000;
@@ -31,6 +33,7 @@
     --bdr-header: #d1d9e1;
     --bdr-btn-default: #000000;
     --bdr-btn-special: transparent;
+    --bdr-chatbox: lightgrey;
 
     /* Hover variables */
     --bg-hover-header: #f2eee8;
@@ -704,14 +707,14 @@ aside{
 aside .chatbox{
     width: 100%;
     height: 100%;
-    margin: 0 auto;
     border-radius: 10px;
-    border: 2px solid lightgray;
-    background-color: white;
+    border: 2px solid var(--bdr-chatbox);
+    background-color: var(--bg-chatbox-content);
 }
 aside .chatbox .chatbox-header{
     height: 12%;
-    border-bottom: 2px solid lightgray;
+    background-color: var(--bg-chatbox-header);
+    border-bottom: 2px solid var(--bdr-chatbox);
 }
 aside .chatbox .chatbox-content{
     height: 76%;
@@ -719,7 +722,7 @@ aside .chatbox .chatbox-content{
 aside .chatbox .chatbox-footer{
     height: 12%;
     padding: 5px;
-    border-top: 2px solid lightgray;
+    border-top: 2px solid var(--bdr-chatbox);
 }
 aside .chatbox .chatbox-footer .btn{
     height: 100%;
