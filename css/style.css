@@ -681,8 +681,11 @@ footer{
     color: var(--txt-footer);
 }
 footer nav ul li a{
-    color: var(--txt-footer);font-size: calc(var(--fs-body) - 0.2rem);
-
+    color: var(--txt-footer);
+    font-size: calc(var(--fs-body) - 0.15rem);
+}
+footer nav ul li a:hover{
+    text-decoration: underline;
 }
 footer #links{
     padding: 5rem 0 4rem 0;
