@@ -427,6 +427,7 @@ main #plans .plan-element hr{
 }
 .plan-element .plan-major-details p i{
     width: 15px;
+    padding-top: 3px;
 }
 .plan-element .plan-major-details p span{
     width: calc(100% - 15px - 0.5rem);
