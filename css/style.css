@@ -719,9 +719,11 @@ aside{
     margin: 0 1rem 1rem 0;
     padding: 0.5rem;
 }
-aside .chatbox{
+aside .chatbox-container, aside .chatbox{
     width: 100%;
     height: 100%;
+}
+aside .chatbox{
     border: 2px solid var(--bdr-chatbox);
     background-color: var(--bg-chatbox-content);
 }
@@ -798,6 +800,9 @@ aside .chatbox-container:hover .show-header{
 aside .chatbox-container:hover .hide{
     display: block;
     animation: open-chatbox 0.5s linear 1 forwards;
+}
+aside:hover{
+    height: 500px;
 }
 @keyframes open-chatbox{
     100%{
