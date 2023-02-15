@@ -44,6 +44,7 @@
     --bg-hover-header: #f2eee8;
     --bg-hover-btn-default: #f2eee8;
     --bg-hover-btn-special: #5593f8;
+    --bg-hover-details: #f2eee8;
     
     /* Size variables */
     --fs-body: 0.91rem;
@@ -640,6 +641,10 @@ main #faq summary{
 }
 main #faq details{
     padding: 1.5rem 0 1.5rem 0;
+    transition: background-color var(--tr-bg-color) linear;
+}
+main #faq details:hover{
+    background-color: var(--bg-hover-details);
 }
 
 /*****************************************************************/
