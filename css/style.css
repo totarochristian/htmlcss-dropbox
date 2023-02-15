@@ -140,6 +140,9 @@ main h3{
 .d-f-row-reverse{
     flex-flow: row-reverse;
 }
+.d-f-no-wrap{
+    flex-wrap: nowrap;
+}
 .gap-1rem{
     gap: 1rem;
 }
@@ -733,8 +736,19 @@ aside .chatbox .chatbox-header i{
 aside .chatbox .chatbox-content{
     height: 76%;
 }
-aside .chatbox .chatbox-content i{
+aside .chatbox .message{
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+aside .chatbox .chatbox-content .message i{
+    width: 30px;
     font-size: var(--fs-chatbox-icons);
+}
+aside .chatbox .chatbox-content .message span{
+    width: calc(100% - 30px);
+}
+aside .chatbox .chatbox-content .user span{
+    text-align: right;
 }
 aside .chatbox .chatbox-footer{
     height: 12%;
@@ -748,8 +762,4 @@ aside .chatbox .chatbox-footer .btn{
 aside .chatbox .chatbox-footer input{
     width: calc(100% - 57px - 5px);
     padding: 10px;
-}
-aside .chatbox .message{
-    width: 100%;
-    padding: 1rem 0.5rem 1rem 0.5rem;
 }
