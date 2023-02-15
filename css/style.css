@@ -723,9 +723,10 @@ aside .chatbox .chatbox-footer{
 }
 aside .chatbox .chatbox-footer .btn{
     height: 100%;
+    width: 57px;
 }
 aside .chatbox .chatbox-footer input{
-    width: 80%;
+    width: calc(100% - 57px - 5px);
     border-radius: 7px;
     padding: 10px;
 }
